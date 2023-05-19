@@ -47,7 +47,7 @@ function Projects() {
         }).then(resp => resp.json())
         .then(() => {
             setProjects(projects.filter((project) => project.id !== id));
-            setProjectMessage('Projecto removido com sucesso.');
+            setProjectMessage('Projeto removido com sucesso.');
         }).catch(err => console.log(err));
     }
 
