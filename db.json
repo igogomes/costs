@@ -8,8 +8,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Contratação de AWS Server",
+          "cost": "5000",
+          "description": "Desenvolvimento de infra estrutura para o projeto XPTO.",
+          "id": "8c7b6482-a614-410a-b6ad-0d560629368f"
+        }
+      ],
       "id": 3
     },
     {
