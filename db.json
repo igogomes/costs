@@ -27,8 +27,21 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 18100,
+      "services": [
+        {
+          "name": "Contratação de Desenvolvedor Front-End",
+          "cost": "18000",
+          "description": "Alocação de recurso para desenvolvimento do projeto.",
+          "id": "c35206d1-70c2-4918-9a83-eff2be80303c"
+        },
+        {
+          "name": "Compra de Domínio",
+          "cost": "100",
+          "description": "Compra de domínio para site da empresa.",
+          "id": "f7dc1fcd-cf20-41cf-8bfb-68c18c0daf08"
+        }
+      ],
       "id": 4
     },
     {
