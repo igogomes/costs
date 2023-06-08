@@ -85,3 +85,16 @@
     background-color: #222;
     color: #ffbb33;
 }
+
+@media screen and (max-width: 896px) {
+    .project_card {
+        width: 49%;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .project_card {
+        width: 99%;
+        margin-bottom: 1rem;
+    }    
+}
