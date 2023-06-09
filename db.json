@@ -8,7 +8,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 9099,
+      "cost": 8099,
       "services": [
         {
           "name": "Contratação de AWS Server",
@@ -39,12 +39,6 @@
           "cost": "1000",
           "description": "Alocação de recurso para desenvolvimento do projeto.",
           "id": "24bf6623-433f-4254-85b2-8271f01bf6d2"
-        },
-        {
-          "name": "Contratação de Desenvolvedor Front-End",
-          "cost": "1000",
-          "description": "Alocação de recurso para desenvolvimento do projeto.",
-          "id": "337576f1-a0af-487d-b459-8c69eca09948"
         }
       ],
       "id": 3
