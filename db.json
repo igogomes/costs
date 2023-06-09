@@ -8,13 +8,43 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 5000,
+      "cost": 9099,
       "services": [
         {
           "name": "Contratação de AWS Server",
           "cost": "5000",
           "description": "Desenvolvimento de infra estrutura para o projeto XPTO.",
           "id": "8c7b6482-a614-410a-b6ad-0d560629368f"
+        },
+        {
+          "name": "Contratação de Desenvolvedor Front-End",
+          "cost": "999",
+          "description": "Alocação de recurso para desenvolvimento do projeto.",
+          "id": "06fb9cd1-2895-4147-91d3-01eb38bcd5d1"
+        },
+        {
+          "name": "Contratação de Desenvolvedor Full Stack",
+          "cost": "1000",
+          "description": "Alocação de recurso para desenvolvimento do projeto.",
+          "id": "3eda9265-dce1-4de9-b254-2a7bc06e7de1"
+        },
+        {
+          "name": "Compra de Domínio",
+          "cost": "100",
+          "description": "Compra de domínio para site da empresa.",
+          "id": "1d54c524-f08e-489c-b5b6-fcf076bc6e16"
+        },
+        {
+          "name": "Contratação de UX Designer",
+          "cost": "1000",
+          "description": "Alocação de recurso para desenvolvimento do projeto.",
+          "id": "24bf6623-433f-4254-85b2-8271f01bf6d2"
+        },
+        {
+          "name": "Contratação de Desenvolvedor Front-End",
+          "cost": "1000",
+          "description": "Alocação de recurso para desenvolvimento do projeto.",
+          "id": "337576f1-a0af-487d-b459-8c69eca09948"
         }
       ],
       "id": 3
