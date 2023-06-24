@@ -11,3 +11,9 @@
 .newproject_container p {
     color: #7b7b7b;
 }
+
+@media screen and (max-width: 767px) {
+    .newproject_container h1 {
+        margin-top: 1.5em;
+    }
+}

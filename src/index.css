@@ -9,3 +9,74 @@ html, body, #root {
   background-color: #efefef;
   height: 100%;
 }
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-structure-desktop {
+    display: none;
+  }
+
+  .navbar-structure-mobile .bm-menu-wrap {
+    width: 100% !important;
+  }
+
+  .bm-overlay {
+    background-color: #000 !important;
+    padding: 20px;
+  }
+
+  .navbar-structure-mobile .bm-burger-button span span {
+    max-height: 10px;
+    max-width: 50px;
+    margin-bottom: 0;
+    top: 0 !important;
+    margin-left: 20px;
+    background-color: #000;
+  }
+
+  .navbar-structure-mobile .bm-burger-button span span:nth-child(1) {
+    margin-top: 20px;
+  }
+
+  .navbar-structure-mobile .bm-burger-button span span:nth-child(2) {
+    margin-top: 35px;
+  }
+
+  .navbar-structure-mobile .bm-burger-button span span:nth-child(3) {
+    margin-top: 50px;
+  }
+
+  .navbar-structure-mobile .bm-item-list {
+    padding: 40px;
+  }
+
+  .navbar-structure-mobile .bm-item-list .bm-item.menu-item {
+    padding-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .navbar-structure-mobile .bm-item-list .bm-item.menu-item:hover {
+    color: #ffbb33;
+  }
+
+  .navbar-structure-mobile .bm-cross-button span span {
+    background-color: #fff;
+  }
+
+  .navbar-structure-mobile .bm-burger-button button {
+    height: 80px !important;
+    width: 90px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-structure-mobile {
+    display: none;
+  }
+}

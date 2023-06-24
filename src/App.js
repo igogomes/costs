@@ -9,12 +9,20 @@ import Project from './components/pages/Project'
 
 import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar'
+import Sidebar from './components/layout/Sidebar'
 import Footer from './components/layout/Footer'
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <div className='navbar-structure'>
+        <div className='navbar-structure-desktop'>
+          <Navbar />
+        </div>
+        <div className='navbar-structure-mobile'>
+          <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        </div>
+      </div>
       <Container customClass='minHeight'>
         <Routes>
           <Route path='/' element={<Home/>} />

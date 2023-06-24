@@ -186,7 +186,11 @@ function Project() {
                     </Container>
                 </div>
             ) : 
-            (<Loading />)}
+            (
+                <div className={styles.loader_controller}>
+                    <Loading />
+                </div>
+            )}
         </>
     );
 }
