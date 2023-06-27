@@ -113,23 +113,23 @@
   "subjects": [
     {
       "id": 1,
-      "name": "Elogio"
+      "subject": "Elogio"
     },
     {
       "id": 2,
-      "name": "Reclamação"
+      "subject": "Reclamação"
     },
     {
       "id": 3,
-      "name": "Crítica"
+      "subject": "Crítica"
     },
     {
       "id": 4,
-      "name": "Opinião"
+      "subject": "Opinião"
     },
     {
       "id": 5,
-      "name": "Outros"
+      "subject": "Outros"
     }
   ]
 }

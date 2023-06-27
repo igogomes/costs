@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 import Input from '../form/Input'
 import TextArea from '../form/TextArea'
-import Select from '../form/Select'
+import SelectSubject from '../form/SelectSubject'
 import SubmitButton from '../form/SubmitButton'
 
 function ContactForm({ btnText }) {
@@ -28,7 +28,7 @@ function ContactForm({ btnText }) {
         <form className={styles.form}>
             <Input type="text" text="Digite seu nome" name="name" placeholder="Digite seu nome" />
             <Input type="email" text="Digite seu e-mail" name="email" placeholder="Digite seu e-mail" />
-            <Select name="subject" text="Selecione um assunto" options={subjects}/>
+            <SelectSubject name="subject" text="Selecione um assunto" options={subjects}/>
             <TextArea text="Digite sua mensagem" name="message" placeholder="Digite sua mensagem" />
             <SubmitButton text={btnText} />
         </form>
