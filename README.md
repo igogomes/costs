@@ -12,7 +12,9 @@ de conteúdos nas páginas <em>Sobre Nós</em> e <em>Contato</em> e também com 
 Para observar o projeto localmente, basta utilizar os comandos abaixo:
 
 <em>npm install</em>
+<br>
 <em>npm start</em>
+<br>
 <em>npm run backend</em>
 
 Sendo o primeiro para inicialização do projeto e, o segundo para que o arquivo db.json possa ser utilizado como um simulador de
