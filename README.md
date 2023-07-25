@@ -1,23 +1,21 @@
 # Costs
 
-<strong>Costs</strong> é um projeto desenvolvido para minha prática com a biblioteca React. Com ele é possível realizar o controle de 
-orçamentos para projetos, administrando os serviços inseridos nestes com seus respectivos valores. 
+<strong>Costs</strong> é um projeto desenvolvido para minha prática com a biblioteca React. Com ele é possível realizar o controle de
+orçamentos para projetos, administrando os serviços inseridos nestes com seus respectivos valores.
 
-Através do canal <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO" target="_blank">Hora de 
-  Codar</a> tive as instruções iniciais necessárias para o desenvolvimento deste projeto e, aperfeiçoá-lo através da aplicação 
-  de conteúdos nas páginas <em>Sobre Nós</em> e <em>Contato</em> e também com a aplicação de ajustes para torná-lo responsivo.
-  
+Através do canal <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO" target="_blank">Hora de
+Codar</a> tive as instruções iniciais necessárias para o desenvolvimento deste projeto e, aperfeiçoá-lo através da aplicação
+de conteúdos nas páginas <em>Sobre Nós</em> e <em>Contato</em> e também com a aplicação de ajustes para torná-lo responsivo.
+
 # Iniciando o projeto
 
 Para observar o projeto localmente, basta utilizar os comandos abaixo:
 
+<em>npm install</em>
 <em>npm start</em>
-
-e
-
 <em>npm run backend</em>
 
-Sendo o primeiro para inicialização do projeto e, o segundo para que o arquivo db.json possa ser utilizado como um simulador de 
+Sendo o primeiro para inicialização do projeto e, o segundo para que o arquivo db.json possa ser utilizado como um simulador de
 banco de dados, de onde o projeto obterá e registrará informações conforme necessário.
 
 # Páginas
@@ -38,15 +36,15 @@ Novos projetos podem ser cadastrados através desta página, onde o título, o o
 
 <strong>Projects</strong>
 
-Todos os projetos cadastrados no Costs ficam concentrados nessa página, sendo exibidos através de cartões que especificam as suas três 
+Todos os projetos cadastrados no Costs ficam concentrados nessa página, sendo exibidos através de cartões que especificam as suas três
 informações principais (título, orçamento e categoria) e, também botões para edição e exclusão de cada projeto.
 
 <img src="https://raw.githubusercontent.com/igogomes/costs/main/src/img/projects.png" alt="Projects"/>
 
 <strong>Edit Project</strong>
 
-A edição de projetos permite não apenas mudanças em seu título, orçamento e categoria, mas também a inclusão de serviços com seus 
-respectivos nomes, custos descrições. 
+A edição de projetos permite não apenas mudanças em seu título, orçamento e categoria, mas também a inclusão de serviços com seus
+respectivos nomes, custos descrições.
 
 <img src="https://raw.githubusercontent.com/igogomes/costs/main/src/img/editproject.png" alt="Edit Project"/>
 
